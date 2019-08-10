@@ -1,10 +1,10 @@
-## About / the garden
+## About | the garden
 
 We build tools that aim to evolve the fundamental patterns of how humans interact, discover, and create.
 
 We are just at the beginning of this journey. If you would like to find out more about the projects and/or get involved, please reach out: tellmemore@planting.space 
 
-## Projects / the forests
+## Projects | forests
 
 ### Mangrove
 
