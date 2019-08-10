@@ -1,5 +1,3 @@
-# PlantingSpace
-
 ## About / the garden
 
 We build tools that aim to evolve the fundamental patterns of how humans interact, discover, and create.
