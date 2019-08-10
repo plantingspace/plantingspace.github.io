@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# PlantingSpace
 
-You can use the [editor on GitHub](https://github.com/plantingspace/website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## About / the garden
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We build tools that aim to evolve the fundamental patterns of how humans interact, discover, and create.
 
-### Markdown
+We are just at the beginning of this journey. If you would like to find out more about the projects and/or get involved, please reach out: tellmemore@planting.space 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Projects / the forests
 
-```markdown
-Syntax highlighted code block
+### Mangrove
 
-# Header 1
-## Header 2
-### Header 3
+- A set of tools and an [open data set](https://en.wikipedia.org/wiki/Open_data) that allow individuals to capture and share their assessments and reviews of services or tools they used. 
+- Humans benefit from leveraging the experiences of others for their own decision-making. We feel an intrinsic need to share with others information about things we used and experienced, and to make use of such information ourselves before we invest resources.
+- Services like Google Reviews, Yelp, TripAdvisor, etc., brought the possibility to share on a global scale. While this has been a step in the right direction, the current model is not leading us towards the ideal of sharing insights freely. We see 3 major issues that arise from the fact that this data currently resides within a number of proprietary silos:
+  - partitioning --> have to look in many places
+  - proprietary, lack of control, censorship
+  - barrier for innovation --> doesn't allow creators to create new and useful tools; high barriers for leveraging this rich information
+  
+### Taiga
 
-- Bulleted
-- List
+- A tool for gathering knowledge and gaining insights. By finding the universal language to capture our current understanding of the world, Taiga aims to make it easier to find the frontiers of what is known and help us push beyond that. Taiga draws heavily on domains of category theory and probabilistic modeling.
+- The amount of knowledge grows along with the growth of our civilisation. In order to help us cope with it, we need to develop better ways to capture the knowledge and make use of it. Statistics and machine learning has helped us greatly to leverage well-structured information. However, they have so far provided only limited paths towards new discoveries.
+- Current methods require the problem and the data needed for its solution to be prepared by humans who themselves need to have a full understanding of the whole situation.
 
-1. Numbered
-2. List
+### Broadleaf
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/plantingspace/website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- A tool and a set of principles for organizing ourselves to create.
