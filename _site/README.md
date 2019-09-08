@@ -40,3 +40,6 @@ The graph below explains how the different elements are connected. The text icon
 
 
 <iframe width="500" height="500" src="https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5" frameborder="0" allowfullscreen>Your browser does not support frames. <a href="https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5" target="_blank">View</a> this map on its original site. It was created using <a href="https://www.mindomo.com" target="_blank">Mindomo</a>.</iframe>
+
+
+[other](other.md)
