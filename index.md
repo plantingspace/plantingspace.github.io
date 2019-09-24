@@ -12,7 +12,7 @@ The content provided here is work in progress, we will be adding information as 
 
 # Projects
 
-### Mangrove
+### [Mangrove](mangrove.md)
 
 Mangrove is an initiative to create a public space on the Internet where people can freely share valuable insights with each other.
 
@@ -22,7 +22,7 @@ For this purpose, Mangrove will provide an infrastructure that will allow anyone
 
 Mangrove should allow anyone to freely share their assessments of, and experiences with services, products, websites, places, and more - for the benefit of all.
 
-###         [--> More](mangrove.md)
+#### [More](mangrove.md)
   
 ### Taiga
 
