@@ -14,15 +14,15 @@ The content provided here is work in progress, we will be adding information as 
 
 ### Mangrove
 
-Mangrove is an initiative to create a public space on the Internet where people could freely share valuable insights with each other.
+Mangrove is an initiative to create a public space on the Internet where people can freely share valuable insights with each other.
 
 It aims to offer an alternative to the proprietary and exploitative information silos of Google, Amazon, and others.
 
-For this purpose, Mangrove will provide an infrastructure that will allow anyone to capture reviews and assessments in an [open data set](https://en.wikipedia.org/wiki/Open_data). As such, it will be freely available to all: people who want to improve their decision-making, application builders, researchers, etc.
+For this purpose, Mangrove will provide an infrastructure that will allow anyone to capture reviews and assessments in an [open data set](https://en.wikipedia.org/wiki/Open_data). As such, it will be freely available to all, including people who want to improve their decision-making, application builders, and researchers.
 
 Mangrove should allow anyone to freely share their assessments of, and experiences with services, products, websites, places, and more - for the benefit of all.
 
-[More](mangrove.md)
+#### [More](mangrove.md)
   
 ### Taiga
 
@@ -42,5 +42,3 @@ The graph below explains how the different elements are connected. The text icon
 
 <iframe width="500" height="500" src="https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5" frameborder="0" allowfullscreen>Your browser does not support frames. <a href="https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5" target="_blank">View</a> this map on its original site. It was created using <a href="https://www.mindomo.com" target="_blank">Mindomo</a>.</iframe>
 
-
-[other](mangrove.md)
