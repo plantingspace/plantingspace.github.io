@@ -22,7 +22,7 @@ For this purpose, Mangrove will provide an infrastructure that will allow anyone
 
 Mangrove should allow anyone to freely share their assessments of, and experiences with services, products, websites, places, and more - for the benefit of all.
 
-###         [More](mangrove.md)
+###         [--> More](mangrove.md)
   
 ### Taiga
 
