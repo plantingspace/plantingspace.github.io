@@ -2,7 +2,7 @@
 title: ""
 ---
 
-## About
+# About
 
 We build tools that aim to evolve some of the fundamental patterns of how humans interact, discover, and create.
 
@@ -10,7 +10,7 @@ We are just at the beginning of this journey. If you would like to find out more
 
 The content provided here is work in progress, we will be adding information as we proceed, and welcome feedback and input. 
 
-## Projects
+# Projects
 
 ### Mangrove
 
@@ -22,7 +22,7 @@ For this purpose, Mangrove will provide an infrastructure that will allow anyone
 
 Mangrove should allow anyone to freely share their assessments of, and experiences with services, products, websites, places, and more - for the benefit of all.
 
-#### [More](mangrove.md)
+###         [More](mangrove.md)
   
 ### Taiga
 
