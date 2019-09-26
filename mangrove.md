@@ -3,9 +3,9 @@ title: Mangrove
 ---
 
 # Overview
-So, why are we attempting to build an open data set for reviews, and why do we even care about reviews? Why are the current free-of-charge, convenient solutions such as Google, Yelp, or Foursquare, not good enough? 
+Why does the world need an open data set for reviews? Why even care about reviews? Why are the current free-of-charge, convenient solutions that Google, Yelp, Amazon and co offer, not good enough? In the following, we lay out our motivation for Mangrove. 
 
-In the following, we share our motivation for Mangrove. We then describe the envisioned solution in depth, and lay out the project's breakdown into workstreams and tasks, to allow anyone interested to join the effort.
+We then describe the envisioned solution, and lay out the project's breakdown into workstreams and tasks, to allow anyone interested to join the effort.
 
 # Why reviews matter
 
@@ -15,9 +15,7 @@ In the past we relied mostly on our personal network to get recommendations or r
 
 With the advent of the internet, it became possible to leverage a much larger group of people for this purpose. Forums and online communities sprung up where people from all over the world could share their opinions and experiences with millions of Internet users, influencing each others' decisions through online word-of-mouth.
 
-As the world is growing more complex, so are the choices that we have to make each day. The number of services, products, media outlets, books, travel destinations, websites, apps, is growing, and it takes more effort to navigate the global range of offerings.
-
-So, when wanting to buy something of value today, we increasingly look up information online, and we search for other people's opinions in order to minimize our risk of not getting what we are looking for (research studies performed by [IMC](https://spiegel.medill.northwestern.edu/online-reviews/) or  [BrightLocal](https://www.brightlocal.com/research/local-consumer-review-survey/#methodology) have quantified this trend).
+The world is growing more complex, and so are the choices that we have to make each day. The number of services, products, media outlets, books, travel destinations, websites, apps, is growing, and it takes more effort to navigate the global range of offerings. We increasingly look up information online when we want to buy something or go somewhere, and we actively search for other people's opinions in order to form our own (research studies performed by [IMC](https://spiegel.medill.northwestern.edu/online-reviews/) or  [BrightLocal](https://www.brightlocal.com/research/local-consumer-review-survey/#methodology) have quantified this trend). 
 
 In addition, the opinions of customers in the form of online reviews have become crucial for businesses. Reviews can impact businesses' reputation, their ranking in search results, and even their profitability, as consumers are willing to pay more for products for which reviews are available.
 
@@ -32,17 +30,18 @@ The current model in which a small number of dominating platforms keep reviews p
       * people willing to write a review have to decide each time on which platform to leave their opinion
       * each platform attracts a limited demographic, leading to potential biases
   * **Reviewer exploitation**: users provide reviews freely, yet the data is owned and capitalized on by the platform, while users' privacy is invaded for market insight analysis - by consumer product marketeers, as well as by political campaigns
+  
   * **Intransparency**: the data as well as the algorithms that compute the rating and determine which reviews are shown and which are deleted, are not open to the public
       * lack of control for the public over what happens with the data
       * possibility of censorship
       * possibility that reviews are lost forever if the platform gets closed down
   * **Barriers for innovation**: closed-source data disallows creators to create new and useful tools; high barriers for leveraging this rich information
 
-We believe the ability of people to share  freely their insights, assessments and opinions on anything that is public will gain importance for protecting a free society that is upholding human rights. Large corporations are gaining power and are increasingly hard to control. Marketeers and even political campaigns are using insights from the vast amount of personal data to manipulate the choices people make. Individuals and communities need to have a way to share information and coordinate freely in order to be able to create a counter-balance, and to be able to navigate the increasingly complex space of choices we all have today.
+We believe the ability of people to articulate and share freely their insights, assessments and opinions on anything that is public, is core to a free and evolved society. Large corporations are gaining power and are increasingly hard to control. Marketeers and even political campaigns are using insights from the vast amount of personal data to manipulate the choices people make. Individuals and communities need to have a way to share information and coordinate freely in order to be able to create a counter-balance. With this tool, open to all, people can help each other to navigate and shape the increasingly complex space of choices we all have today.
 
-# Mangrove as a solution to this problem
+# What is Mangrove
 
-Mangrove aims at providing an infrastructure that will allow anyone to capture and leverage insights, assessments, opinions in form of reviews in an [open data set](https://en.wikipedia.org/wiki/Open_data). The provided tools will allow reading, writing, and aggregating reviews. Businesses will be able to integrate Mangrove in their websites. It should allow individuals, businesses, research groups, or government agencies to leverage this rich and valuable data freely. The project does not pursue a profit goal.
+Mangrove is a non-profit initiative to provide an infrastructure that will allow anyone to capture insights, assessments, opinions in form of reviews in an [open data set](https://en.wikipedia.org/wiki/Open_data). The provided tools will allow reading, writing, and aggregating reviews. Businesses will be able to integrate Mangrove in their websites. It should allow individuals, businesses, research groups, or government agencies to leverage this rich and valuable data freely. 
 
 Its **main design principles** (see more below) include
 * decentralization
