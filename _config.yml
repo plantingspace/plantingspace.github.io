@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
 title: PlantingSpace
+description: We build tools that aim to evolve some of the fundamental patterns of how humans interact, discover, and create.
 plugins:
   - jekyll-relative-links
