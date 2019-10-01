@@ -24,7 +24,9 @@ The provided tools will allow reading, writing, and aggregating reviews, as well
 ## FAQ
 
 <details>
-  <summary>Why should people care about reviews?</summary>
+<summary>
+Why should people care about reviews?
+</summary>
   
   We all benefit from leveraging the experiences of others for our own decision-making. We feel an intrinsic need to share with others information about things we used and experienced, and to make use of such information ourselves before we invest resources. 
 
