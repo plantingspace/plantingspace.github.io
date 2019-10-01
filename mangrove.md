@@ -27,7 +27,7 @@ The provided tools will allow reading, writing, and aggregating reviews, as well
 <summary>
 Why should people care about reviews?
 </summary>
-  
+
   We all benefit from leveraging the experiences of others for our own decision-making. We feel an intrinsic need to share with others information about things we used and experienced, and to make use of such information ourselves before we invest resources. 
 
 In the past we relied mostly on our personal network to get recommendations or reviews for anything from restaurants, movies, travel destinations, to appliances or services. 
@@ -39,4 +39,5 @@ The world is growing more complex, and so are the choices that we have to make e
 In addition, the opinions of customers in the form of online reviews have become crucial for businesses. Reviews can impact businesses' reputation, their ranking in search results, and even their profitability, as consumers are willing to pay more for products for which reviews are available.
 
 Companies such as Google, Yelp, FourSquare, TrustPilot, Facebook, TripAdvisor, have recognised this trend already years ago, and offered platforms with listings of businesses on which users could leave reviews as well as leverage other people's reviews for free. By now, these services boast hundreds of millions of consumer reviews on their websites and applications. The crowd-sourced data has become a well-guarded gold mine for these companies, based on which they predominately generate revenues from advertising, redirections, as well as from selling the personal data of their platform users.
+
 </details>
