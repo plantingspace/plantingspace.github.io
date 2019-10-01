@@ -10,8 +10,11 @@ The provided tools will allow reading, writing, and aggregating reviews, as well
 
 ## Main features
 * **The dataset is a [Free Cultural Work](https://freedomdefined.org/Definition), licensed under [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), thus not placing any restrictions on the type of use by anyone.** If you create content for all your fellow humans to benefit, why grant only one closed-source provider the rights to use it? You should be able to grant the whole world the rights to use it the way they want, as long as it is not misrepresented.
+
 * **Reviewers' identities are created using public key cryptography, giving reviewers full control over their identity without administration by a central authority.** That means, you decide what to share with the public, and you are the only person holding the key to your identity. No need to trust a company storing your personal information and password.
+
 * The aggregation of individual reviews into an overall rating can be done by anyone based on a large variety of algorithms; users can however also use **Mangrove's open aggregation algorithm** freely.
+
 * Besides a rating and a text, **reviewers can add media files** such as photos or audio files to enrich their reviews.
 
 * **To ensure a high reliability** of the reviews:
@@ -69,7 +72,7 @@ Companies such as Google, Yelp, FourSquare, TrustPilot, Facebook, TripAdvisor, h
 </details>
 
 <details>
-<summary> **How can an open data set setup ensure reliability of reviews?**
+<summary> **How can this setup ensure reliable reviews?**
 </summary>
 
   Being an open data set that is maintained in a decentralized manner should not impact the reliability of the data negatively. There should not be a possibility for deletion and censorship of genuine reviews. Fraudulent reviews and irrelevant posts should not be taken into account when composing the rating. Furthermore, the data set should not be a place for hate speech. 
