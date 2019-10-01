@@ -1,5 +1,6 @@
 ---
 title: Mangrove
+description: A public space where people can freely share valuable insights with each other without a central authority.
 ---
 
 # Overview
