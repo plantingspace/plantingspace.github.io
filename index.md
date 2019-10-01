@@ -1,5 +1,6 @@
 ---
 title: ""
+description: We build tools that aim to evolve some of the fundamental patterns of how humans interact, discover, and create.
 ---
 
 # Projects
