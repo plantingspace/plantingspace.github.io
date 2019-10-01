@@ -30,9 +30,9 @@ Broadleaf organisations will be attractive for entrepreneurial people who value 
 
 #### [More about Broadleaf](broadleaf.md)
 
-# Connect with us
+# Get in touch
 
-If you would like to find out more about our projects, to get involved, or to provide input, please reach out to us at hello@planting.space , or:
+If you would like to find out more about our projects, to get involved, or to provide input, please reach out to us at hello@planting.space , or subscribe to our mailing list:
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
@@ -44,7 +44,6 @@ If you would like to find out more about our projects, to get involved, or to pr
 <div id="mc_embed_signup">
 <form action="https://space.us20.list-manage.com/subscribe/post?u=384a3d5b51e32c2fcbab0ebd2&amp;id=1059c0fb6e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Subscribe to our mailing list</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_384a3d5b51e32c2fcbab0ebd2_1059c0fb6e" tabindex="-1" value=""></div>
