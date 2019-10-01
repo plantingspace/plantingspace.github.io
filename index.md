@@ -11,7 +11,7 @@ Taiga is a research project, aiming to create a tool for gathering knowledge and
 
 ### Mangrove
 
-Mangrove is a non-profit initiative to create a public space on the Internet where people can freely share valuable insights with each other.
+Mangrove is a non-profit initiative to create a public space on the Internet where people can freely share valuable insights with each other without a central authority.
 
 It aims to offer an open and decentralized alternative to the proprietary information silos of Google, Amazon, and others.
 
@@ -22,17 +22,17 @@ For this purpose, Mangrove will provide an infrastructure that will allow anyone
 
 ### Broadleaf
 
-Broadleaf is an organisational concept and a concrete framework for organizing work. It represents an alternative to the traditional setup characterized by org charts, hierarchies, and formal employment. 
+Broadleaf is an organisational concept and a concrete framework for organizing work. It represents an alternative to the traditional setup characterized by management layers, org charts with job descriptions, and formal employment. 
 
 All PlantingSpace projects are organized following an open set of Broadleaf principles and tools. 
 
-Broadleaf organisations will be attractive for people who value autonomy and have an entrepreneurial spirit, who are purpose-driven and want to know what overarching goals they are contributing to, who want to get things done efficiently and embrace accountability, and who have a desire for constant learning and growth.
+Broadleaf organisations will be attractive for entrepreneurial people who value autonomy, who are purpose-driven, and who want to achieve goals efficiently in a team.
 
 #### [More about Broadleaf](broadleaf.md)
 
-# Reach out
+# Connect with us
 
-If you would like to find out more about our projects, to get involved, or to provide feedback, please reach out to us at hello@planting.space , or:
+If you would like to find out more about our projects, to get involved, or to provide input, please reach out to us at hello@planting.space , or:
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
