@@ -26,8 +26,8 @@ The provided tools will allow reading, writing, and aggregating reviews, as well
 
 ## FAQ
 
-<details>
-<summary> **Why should people care about reviews?**
+<details markdown="1">
+<summary><b>Why should people care about reviews?</b>
 </summary>
 
   We all benefit from leveraging the experiences of others for our own decision-making. We feel an intrinsic need to share with others information about things we used and experienced, and to make use of such information ourselves before we invest resources. 
@@ -44,8 +44,8 @@ Companies such as Google, Yelp, FourSquare, TrustPilot, Facebook, TripAdvisor, h
 
 </details>
 
-<details>
-<summary> **Why is the current state that we are in bad?**
+<details markdown="1">
+<summary><b>Why is the current state that we are in bad?</b>
 </summary>
 
   The current model in which a small number of dominating platforms keep reviews proprietary and exploit reviewers' and users' data for profit, is not sustainable. We see a number of issues:
@@ -63,16 +63,16 @@ Companies such as Google, Yelp, FourSquare, TrustPilot, Facebook, TripAdvisor, h
 
 </details>
 
-<details>
-<summary> **Why does the world need an open data set for reviews?**
+<details markdown="1">
+<summary><b>Why does the world need an open data set for reviews?</b>
 </summary>
 
   We believe the ability of people to articulate and share freely their insights, assessments and opinions on anything that is public, is core to a free and evolved society. Large corporations are gaining power and are increasingly hard to control. Marketeers, and even political campaigns, are using insights from the vast amount of personal data to manipulate the choices people make. Individuals and communities need to have a way to share information and coordinate freely in order to be able to create a counter-balance. With this tool, open to all, people can help each other to navigate and shape the increasingly complex space of choices we all have today.
 
 </details>
 
-<details>
-<summary> **How can this setup ensure reliable reviews?**
+<details markdown="1">
+<summary><b>How can this setup ensure reliable reviews?</b>
 </summary>
 
   Being an open data set that is maintained in a decentralized manner should not impact the reliability of the data negatively. There should not be a possibility for deletion and censorship of genuine reviews. Fraudulent reviews and irrelevant posts should not be taken into account when composing the rating. Furthermore, the data set should not be a place for hate speech. 
@@ -88,8 +88,8 @@ Beyond this, we encourage any website that uses Mangrove to inform their custome
 
 </details>
 
-<details>
-<summary> **How can I join this initiative?**
+<details markdown="1">
+<summary><b>How can I join this initiative?</b>
 </summary>
 
   This project is organised as a [Broadleaf organisation](https://planting.space/broadleaf.html), which means that we broadcast tasks to a community of interested parties. If you are keen to join, please contact us at hello(at)planting.space.
