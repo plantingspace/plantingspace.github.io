@@ -35,6 +35,9 @@
 
         <h2>{{ page.title }}</h2>
 
+        <div>
+          <canvas id="canvas"></canvas>
+        </div>
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
@@ -50,6 +53,7 @@
       <footer>
       </footer>
     </div>
+    <script src="assets/js/tree.js"></script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
