@@ -126,7 +126,7 @@ const broadleaf = {
 const mangrove = {
     drawRoots: true,
     drawLeaves: false,
-    angMin: 0.01,
+    angMin: 0.3,
     angMax: 1.2,
     angBias: 0,
     lengMin: 0.7,
