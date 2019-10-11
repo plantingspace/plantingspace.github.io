@@ -21,10 +21,10 @@ canvas.addEventListener("click",()=> {
 const seededRandom = (() => {
     let seed = 1;
     return {
-        max : 3244569809797284,
+        max : 2576436549074795,
         reseed (s) { seed = s },
         random ()  {
-            return seed = ((871968857123411 * seed) + 758569012740852) % this.max
+            return seed = ((8765432352450986 * seed) + 8507698654323524) % this.max
         }
     }
 })();
@@ -33,15 +33,14 @@ const randSeed = (seed) => seededRandom.reseed(seed|0);
 // randInt()  random integer 0 or 1
 // randInt(max) random integer from  0 <= random < max
 // randInt(min, max) random integer from min <= random < max
-const randInt = (min = 2, max = min + (min = 0)) => (seededRandom.random() % (max - min)) + min;
+const randInt =
+    (min = 2, max = min + (min = 0)) => (seededRandom.random() % (max - min)) + min;
 // randFloat()  like Math.random
 // randFloat(max) random float 0 <= random < max
 // randFloat(min, max) random float min <= random < max
 const randFloat  =
     (min = 1, max = min + (min = 0)) =>
         (seededRandom.random() / seededRandom.max) * (max - min) + min;
-// Biased coin flip.
-const randBernoulli = (p = 0.5) => seededRandom.random() < (seededRandom.max * p);
 
 const treeSelector = (treeType) => {
     let treeParams;
@@ -49,6 +48,8 @@ const treeSelector = (treeType) => {
         treeParams = mangrove;
     } else if (treeType === "Broadleaf") {
         treeParams = broadleaf;
+    } else if (treeType === "Taiga") {
+        treeParams = taiga;
     } else {
         treeParams = basic;
     }
@@ -56,6 +57,7 @@ const treeSelector = (treeType) => {
     ({
         drawRoots, // Should roots be drawn (upside down tree).
         drawLeaves, // Should leaves be drawn.
+        dirStickiness, // Probability of growth continuing in original direction.
         angMin, // Branching angle min and max.
         angMax,
         angBias, // Direction of the tree tilt.
@@ -82,6 +84,7 @@ const treeSelector = (treeType) => {
 const basic = {
     drawRoots: false,
     drawLeaves: false,
+    dirStickiness: false,
     angMin: 0.01,
     angMax: 0.6,
     angBias: 0,
@@ -104,6 +107,7 @@ const basic = {
 const broadleaf = {
     drawRoots: false,
     drawLeaves: true,
+    dirStickiness: false,
     angMin: 0.01,
     angMax: 0.6,
     angBias: 0,
@@ -115,7 +119,7 @@ const broadleaf = {
     trunkMax: 10,
     maxBranches: 150,
     xRoot: 0.5,
-    windX: -1.2,
+    windX: -1.1,
     windY: 0,
     bendability: 2,
     windBendRectSpeed: 0.005,
@@ -123,9 +127,33 @@ const broadleaf = {
     gustProbability: 0.01
 };
 
+const taiga = {
+    drawRoots: false,
+    drawLeaves: false,
+    dirStickiness: true,
+    angMin: 1.3,
+    angMax: 1.4,
+    angBias: 0.3,
+    lengMin: 0.4,
+    lengMax: 0.5,
+    widthMin: 0.6,
+    widthMax: 0.8,
+    trunkMin: 6,
+    trunkMax: 10,
+    maxBranches: 200,
+    xRoot: 0.3,
+    windX: -0.5,
+    windY: 0,
+    bendability: 1,
+    windBendRectSpeed: 0.01,
+    windBranchSpring: 0.8,
+    gustProbability: 0.01
+};
+
 const mangrove = {
     drawRoots: true,
     drawLeaves: false,
+    dirStickiness: false,
     angMin: 0.3,
     angMax: 1.2,
     angBias: 0,
@@ -196,7 +224,7 @@ function drawBranch(x, y, dir, leng, width, isRoot = false) {
     const xx = Math.cos(dir) * leng * treeGrowVal;
     const yy = Math.sin(dir) * leng * treeGrowVal;
     const windSideWayForce = windX * yy - windY * xx;
-    
+
     if (isRoot) {
         // Make roots more vertical (gravity).
         dir = Math.tanh(dir - Math.PI / 2) + Math.PI / 2
@@ -207,8 +235,8 @@ function drawBranch(x, y, dir, leng, width, isRoot = false) {
         // windSideWayForce the force depending on the branch angle to the wind
         dir += (windStrength * windActual) * ((1 - width / maxTrunk) ** bendability) * windSideWayForce;
     }
-    
-    // draw the branch
+
+    // Draw the branch.
     ctx.lineWidth = width;
     ctx.beginPath();
     ctx.lineTo(x, y);
@@ -219,8 +247,18 @@ function drawBranch(x, y, dir, leng, width, isRoot = false) {
     
     // Grow if not enough branches and insufficient size.
     if (branchCount < maxBranches && leng > 5 && width > 1) {
-        // Do not grow from the tip.
+        // Do not grow immediately.
         treeGrow -= 0.2;
+        if (dirStickiness) {
+            // Keep one branch going straight.
+            drawBranch(
+                x,y,
+                dir + angBias, 
+                leng * randFloat(lengMin, lengMax) ** 0.2,
+                width * randFloat(widthMin, widthMax),
+                isRoot
+            );
+        }
         drawBranch(
             x,y,
             dir + randFloat(angMin, angMax) + angBias, 
