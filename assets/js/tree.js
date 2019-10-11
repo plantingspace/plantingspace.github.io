@@ -23,7 +23,9 @@ const seededRandom = (() => {
     return {
         max : 3244569809797284,
         reseed (s) { seed = s },
-        random ()  { return seed = ((871968857123411 * seed) + 758569012740852) % this.max }
+        random ()  {
+            return seed = ((871968857123411 * seed) + 758569012740852) % this.max
+        }
     }
 })();
 // Create random seed.
@@ -35,21 +37,25 @@ const randInt = (min = 2, max = min + (min = 0)) => (seededRandom.random() % (ma
 // randFloat()  like Math.random
 // randFloat(max) random float 0 <= random < max
 // randFloat(min, max) random float min <= random < max
-const randFloat  = (min = 1, max = min + (min = 0)) => (seededRandom.random() / seededRandom.max) * (max - min) + min;
+const randFloat  =
+    (min = 1, max = min + (min = 0)) =>
+        (seededRandom.random() / seededRandom.max) * (max - min) + min;
 // Biased coin flip.
 const randBernoulli = (p = 0.5) => seededRandom.random() < (seededRandom.max * p);
 
 const treeSelector = (treeType) => {
-    console.log("Tree type: ", treeType);
     let treeParams;
     if (treeType === "Mangrove") {
         treeParams = mangrove;
+    } else if (treeType === "Broadleaf") {
+        treeParams = broadleaf;
     } else {
         treeParams = basic;
     }
     // Tree Paramaters: all angles in radians and lengths/widths are in pixels.
     ({
         drawRoots, // Should roots be drawn (upside down tree).
+        drawLeaves, // Should leaves be drawn.
         angMin, // Branching angle min and max.
         angMax,
         angBias, // Direction of the tree tilt.
@@ -75,6 +81,7 @@ const treeSelector = (treeType) => {
 
 const basic = {
     drawRoots: false,
+    drawLeaves: false,
     angMin: 0.01,
     angMax: 0.6,
     angBias: 0,
@@ -94,8 +101,31 @@ const basic = {
     gustProbability: 0.01
 };
 
+const broadleaf = {
+    drawRoots: false,
+    drawLeaves: true,
+    angMin: 0.01,
+    angMax: 0.6,
+    angBias: 0,
+    lengMin: 0.8,
+    lengMax: 0.9,
+    widthMin: 0.6,
+    widthMax: 0.8,
+    trunkMin: 6,
+    trunkMax: 10,
+    maxBranches: 150,
+    xRoot: 0.5,
+    windX: -1.2,
+    windY: 0,
+    bendability: 2,
+    windBendRectSpeed: 0.005,
+    windBranchSpring: 0.8,
+    gustProbability: 0.01
+};
+
 const mangrove = {
     drawRoots: true,
+    drawLeaves: false,
     angMin: 0.01,
     angMax: 1.2,
     angBias: 0,
@@ -119,7 +149,7 @@ let treeType = document.body.getElementsByTagName('script')[0].classList[0];
 treeSelector(treeType);
 
 // the canvas height you are scaling up or down to a different sized canvas
-const windStrength = 0.01 * bendability * ((200 ** 2) / (canvas.height ** 2));  // wind strength
+const windStrength = 0.01 * bendability * ((200 ** 2) / (canvas.height ** 2));
 
 // Values trying to have a gusty wind effect
 let windCycle = 0;
@@ -144,13 +174,16 @@ function drawTree(seed) {
     treeGrow += 0.02;
     randSeed(seed);
     maxTrunk = randInt(trunkMin, trunkMax);
+    /// Location of the origin X location.
+    const xLocation = canvas.width * xRoot;
     if (drawRoots) {
         // Double the limit to cover for the roots.
         maxBranches += maxBranches;
-        drawBranch(canvas.width * xRoot, canvas.height * 0.7, -Math.PI / 2, canvas.height / 5, maxTrunk);
-        drawBranch(canvas.width * xRoot, canvas.height * 0.6, Math.PI / 2, canvas.height / 6, maxTrunk, true); // Upside down.
+        drawBranch(xLocation, canvas.height * 0.7, -Math.PI / 2, canvas.height / 5, maxTrunk);
+        // Upside down.
+        drawBranch(xLocation, canvas.height * 0.6, Math.PI / 2, canvas.height / 6, maxTrunk, true);
     } else {
-        drawBranch(canvas.width * xRoot, canvas.height, -Math.PI / 2, canvas.height / 5, maxTrunk);
+        drawBranch(xLocation, canvas.height, -Math.PI / 2, canvas.height / 5, maxTrunk);
     }
 }
 
@@ -204,6 +237,11 @@ function drawBranch(x, y, dir, leng, width, isRoot = false) {
             isRoot
         );
         treeGrow += 0.2;
+    } else if (drawLeaves) {
+        ctx.beginPath();
+        ctx.arc(x, y, canvas.height / 30, 0, 2 * Math.PI, false);
+        ctx.fillStyle = "black";
+        ctx.fill();
     }
 }
 
