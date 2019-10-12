@@ -68,7 +68,8 @@ const treeSelector = (treeType) => {
         trunkMin, // Trunk base width ,min and max.
         trunkMax,
         maxBranches, // Max number of branches.
-        xRoot, // Tree location.
+        originX, // x tree location.
+        originY, // y tree location.
         windX, // Wind direction vector.
         windY,
         bendability,
@@ -95,7 +96,8 @@ const basic = {
     trunkMin: 6,
     trunkMax: 10,
     maxBranches: 150,
-    xRoot: 0.5,
+    originX: 0.5,
+    originY: 0,
     windX: -1,
     windY: 0,
     bendability: 8,
@@ -118,7 +120,8 @@ const broadleaf = {
     trunkMin: 6,
     trunkMax: 10,
     maxBranches: 150,
-    xRoot: 0.5,
+    originX: 0.5,
+    originY: 0,
     windX: -1.1,
     windY: 0,
     bendability: 2,
@@ -141,7 +144,8 @@ const taiga = {
     trunkMin: 6,
     trunkMax: 10,
     maxBranches: 200,
-    xRoot: 0.3,
+    originX: 0.3,
+    originY: 0,
     windX: -0.5,
     windY: 0,
     bendability: 1,
@@ -164,7 +168,8 @@ const mangrove = {
     trunkMin: 6,
     trunkMax: 10,
     maxBranches: 150,
-    xRoot: 0.5,
+    originX: 0.5,
+    originY: 0.3,
     windX: -2,
     windY: 0,
     bendability: 1,
@@ -176,7 +181,11 @@ const mangrove = {
 let treeType = document.body.getElementsByTagName('script')[0].classList[0];
 treeSelector(treeType);
 
-// the canvas height you are scaling up or down to a different sized canvas
+/// x location of the seed on canvas.
+const seedX = canvas.width * originX;
+// y location of the seed on canvas.
+const seedY = canvas.height * (1 -originY);
+// The canvas height you are scaling up or down to a different sized canvas.
 const windStrength = 0.01 * bendability * ((200 ** 2) / (canvas.height ** 2));
 
 // Values trying to have a gusty wind effect
@@ -202,16 +211,14 @@ function drawTree(seed) {
     treeGrow += 0.02;
     randSeed(seed);
     maxTrunk = randInt(trunkMin, trunkMax);
-    /// Location of the origin X location.
-    const xLocation = canvas.width * xRoot;
     if (drawRoots) {
         // Double the limit to cover for the roots.
         maxBranches += maxBranches;
-        drawBranch(xLocation, canvas.height * 0.7, -Math.PI / 2, canvas.height / 5, maxTrunk);
+        drawBranch(seedX, seedY, -Math.PI / 2, canvas.height / 5, maxTrunk);
         // Upside down.
-        drawBranch(xLocation, canvas.height * 0.6, Math.PI / 2, canvas.height / 6, maxTrunk, true);
+        drawBranch(seedX, seedY - canvas.height * 0.1, Math.PI / 2, canvas.height / 6, maxTrunk, true);
     } else {
-        drawBranch(xLocation, canvas.height, -Math.PI / 2, canvas.height / 5, maxTrunk);
+        drawBranch(seedX, seedY, -Math.PI / 2, canvas.height / 5, maxTrunk);
     }
 }
 
