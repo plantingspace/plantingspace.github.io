@@ -49,7 +49,7 @@ Broadleaf as an initiative is about working out the specifications and tools in 
 
 PlantingSpace is applying the Broadleaf standard to all its projects, and uses the learnings to improve the standard. Furthermore, we invite anyone who is interested to contribute their ideas and experiences. 
 
-The graph below shows the outline of the Broadleaf standard. [Access the actual graph in order to collapse or expand nodes and read attached text files](https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5). We are adding descriptions as we develop them. If you are interested in receiving regular updates, please sign up to the mailing list.
+The graph below shows the outline of the Broadleaf standard. [Access the actual graph in order to collapse or expand nodes and read attached text files](https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5). We are adding descriptions as we develop them. If you are interested in receiving regular updates, please sign up to the mailing list at the bottom of [this page](https://planting.space).
 
 [Link to the graph](https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5)
 
