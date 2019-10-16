@@ -9,9 +9,9 @@ What that means in particular, and how this is achieved, is summarized in the [V
 
 ## The initiative
 
-The goal of the Broadleaf initiative is to work out the specifications and tools that will allow its vision to come to life. 
+The goal of the Broadleaf Initiative is to define the Broadleaf Standard, consisting of values, concrete specifications  and tools that will allow its vision to come to life, and to make it openly accessible.
 
-We are applying the Broadleaf standard to all PlantingSpace projects, and use the learnings to improve the standard. Furthermore, we invite anyone who is interested to contribute their ideas and experiences. 
+We are applying the Broadleaf Standard to all PlantingSpace projects, and use the learnings to improve the standard. Furthermore, we invite anyone who is interested to contribute their ideas and experiences. 
 
 This graph shows the outline of the Broadleaf standard. Click on the image to access the graph in order to collapse or expand nodes and read attached text files. We are adding descriptions as we develop them. If you are interested in receiving regular updates, please sign up to the PlantingSpace mailing list.
 
