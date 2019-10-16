@@ -1,36 +1,57 @@
 ---
 title: Broadleaf
+description: Broadleaf is a way for people to organize work in order to achieve a common goal. It can be seen as a standard that describes fundamental values and provides concrete specifications for organizing a project effectively.
 ---
 
-# Overview
+# About
 
-Broadleaf is an organisational concept and a concrete framework for organizing work. It consists of an open set of values and tools, and enables the coordination of individual contributors or whole groups of people to achieve a goal, such as delivering a project, or a long-term mission. 
+Broadleaf is a way for people to organize work in order to achieve a common goal. It can be seen as a standard that describes fundamental values and provides concrete specifications for organizing a project effectively. 
 
-# Common values of Broadleaf organisations
+The vision behind Broadleaf is to fundamentally reimagine, from first principles, how people work together towards achieving a goal. It aims at making work highly targeted and efficient, at reducing friction, and at creating the high levels of autonomy and flexibility that are needed in order to solve sophisticated problems.
 
-While each project that makes use of Broadleaf has its own goal and values, there are some common values that drive how work is organised in general.
+How this is achieved can be best summarized along the three values that Broadleaf organisations have in common, and the mechanics that are applied.
 
-* **The goal is more important than the entity that delivers it**
-    * Every contributor, task, or tool in the organisation are aligned towards one clearly articulated ultimate goal
-    * Contributors don't sign up for an entity; they sign up for a concrete goal: everyone has at all times clarity on what they are ultimately helping to achieve.
-    * The goal can live beyond the entity, and leverage any entities it needs. Purpose-driven open contribution and decentralisation reduce zero-sum competition.
-    
-* **The individual contribution matters, not the position**
-    * The notion of positions to determine a person's place in the organisation is made obsolete: people can move freely between teams they work with by choosing the tasks they want to commit to.
-    * The notion of positions to determine a person's career in the organisation is made obsolete: broadening skill sets and performance improvements are reflected in a person's "reliability score", determined by successful accomplishment of tasks; the higher the reliability score, the higher-impact, higher-complexity tasks a person can take on.
-    * Rigid role descriptions are replaced by well-defined, specific tasks that are linked to the ultimate goal; people apply for tasks freely and make a claim for budget needs and concrete deliverables they can commit to; candidates get chosen according to a transparent selection process. 
-    * People are not paid for filling positions but for individual tasks they deliver on; this gives a person flexibility to take on tasks that fit the current skill level and personal circumstances, and reduces unhealthy pressure.
+### 1 - The goal is more important than the entity that delivers it
 
-* **Clarity has to be ensured at all times**
-    * A task has to be justified in terms of its contribution to the ultimate goal. This allows everyone in the organisation to develop their judgment whether the most important issues are well-covered, or whether new tasks are needed.
-    * The problem that a task is supposed to solve has to be well defined, with constraints and its solution space outlined.
-    * What constitutes success for a task has to be articulated so that delivery and reliability score can be determined without conflicts.
+The first value determines the purpose of the organisation, and affects the mindset towards the allocation of resources, and towards competition. It also frames the motivation to join such an organisation.
 
+* The purpose of a Broadleaf organisation is to achieve its ultimate goal. 
+    * Once the goal has been achieved or is simply not relevant anymore, the resources of the organisation should be redistributed to new goals worth achieving. 
+    * 'Hoarding' people in an organisation, or keeping them busy with efforts directed more at preserving power structures rather than at achieving a worthwhile goal, are not the best use of people's time, and will most likely not contribute much to evolving humanity.
+* If it is the goal that matters most, contribution from any source will be welcome as long as it is useful. This means also that a goal that people find worth achieving should be able to live beyond it's founding entity if the entity fails to deliver on it. Such a mindset opens up the possibilities of collaboration and helps to stay away from zero-sum adversarial competition.
+* People should join a Broadleaf organisation because they believe its ultimate goal is worth contributing to, and because the Broadleaf way of doing work is beneficial for them. The feeling of being part of a community should primarily arise from working together towards the same goal, rather than from being employees of the same company.
 
-# Tools
+### 2 - The individual contribution matters, not the position
 
-Tools consist of two types: on one hand Broadleaf provides **concrete frameworks for structuring what has to get done**, organising resources, scaling, getting funding in alignment with the values, etc. On the other hand Broadleaf leverages technology, i.e., **application software**, to make applying the frameworks as smooth and simple as possible.
+The second value determines how professional growth is defined, how people find their place in the organisation,  and what is really valued, and paid for.
 
-The graph below explains how the different elements are connected. The text icons next to the nodes provide more context.
+* Professional growth, and the progression to higher levels of responsibility and pay, are captured in a person's "reliability score". It is recalculated after completion of each task. It reflects how reliable a person is in achieving what they committed to deliver, weighted by how much responsibility and experience the performed task required. The higher someone's reliability score, the more high-profile tasks will be open to them.
+* Professional growth that is based on trackable contributions becomes more controllable and gives people empowerment and autonomy. Waiting or fighting for promotions, instead, leads to stress, unproductive competition, and oftentimes to feelings of powerlessness and frustration.
+* When people's place in the organisation is not defined by a rigid position in an org chart, but by the tasks and teams they are freely choosing, people gain a lot of flexibility to work on different things, with different people, and to experiment. In this type of organisation, no one would have to leave the company if they don't like their boss; they would just finish up their task and move on to work on the tasks of someone else, or propose new tasks for themselves or others where they see an opportunity. 
+* Since it is the contribution that matters, it also defines the compensation. People are not paid for filling a position, or for spending a certain number of hours within the company building. Contributors are paid task-by-task. They apply for tasks and propose their budget. The less applications for a task and the higher its importance, the higher will be the accepted budgets. Since there won't be cash outflows for anything unproductive, it is expected that the task-by-task compensation will overproportionally benefit contributors that are the most active and productive.
 
-<iframe width="500" height="500" src="https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5" frameborder="0" allowfullscreen>Your browser does not support frames. <a href="https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5" target="_blank">View</a> this map on its original site. It was created using <a href="https://www.mindomo.com" target="_blank">Mindomo</a>.</iframe>
+### 3 - Clarity has to be ensured at all times
+
+The third value emphasizes the importance of clarity as an enabler for good communication, frictionless interaction, and ultimately for efficiency.
+
+* Contributors have clarity about how their activities fit into the bigger picture. This allows everyone in the organisation to develop their judgment whether they are working on something that matters, and whether the most important issues are well-covered, or new tasks are needed.
+    * Broadleaf projects are structured as 'rooted directed acyclic graphs' where the root node is the ultimate goal and all nodes are located on directed paths from that ultimate goal. Thus, every task in the system can be traced back to the ultimate goal.
+    * Depending on the level of transparency in an organisation, the whole graph can be made accessible to all. As a minimum, however, a contributor should be able to see the direct path from the task they are applying for to the ultimate goal.
+
+* Contributors have clarity about what is expected of them, and what they can expect of others. They determine themselves what deliverables they want to commit to, and how success will be measured.
+    * When a task is posted for applications, it has to have a description of the expected outcomes. If this expectation is not well-articulated, ambiguous, or seen as unreasonable, the task might be ignored by potential applicants.
+    * When someone then applies for a task, they state in their proposal deliverables they commit to, based on the task's description. If the application is accepted, the deliverables that the contributor themselves committed to set the bar for determining later if the task is completed or not.
+    * On the other hand, if the proposed deliverables in an application are too far from the expected outcomes, the application will probably not be selected if there are other, more suited candidates.
+
+## The Broadleaf initiative
+
+Broadleaf as an initiative is about working out the specifications and tools in order to make this vision come to life. 
+
+PlantingSpace is applying the Broadleaf standard to all its projects, and uses the learnings to improve the standard. Furthermore, we invite anyone who is interested to contribute their ideas and experiences. 
+
+The graph below shows the outline of the Broadleaf standard. [Access the actual graph in order to collapse or expand nodes and read attached text files](https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5). We are adding descriptions as we develop them. If you are interested in receiving regular updates, please sign up to the mailing list.
+
+[Link to the graph](https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5)
+
+![](https://i.imgur.com/9beUv75.png)
+
