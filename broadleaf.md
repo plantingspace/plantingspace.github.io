@@ -21,7 +21,7 @@ See an outline of the Broadleaf standard here. Click on the image to access the 
 
 [![](https://i.imgur.com/9beUv75.png)](https://www.mindomo.com/mindmap/broadleaf-standard-1aed23bb0e8b9f5092f4d4b6eb60c2b8)
 
-## Values
+## Values and vision
 
 ### 1 - The goal is more important than the entity that delivers it
 
