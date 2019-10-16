@@ -19,7 +19,7 @@ We are applying the Broadleaf standard to all PlantingSpace projects, and use th
 
 See an outline of the Broadleaf standard here. Click on the image to access the actual graph in order to collapse or expand nodes and read attached text files. We are adding descriptions as we develop them. If you are interested in receiving regular updates, please sign up to the PlantingSpace mailing list.
 
-[![](https://i.imgur.com/9beUv75.png)](https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5)
+[![](https://i.imgur.com/9beUv75.png)](https://www.mindomo.com/mindmap/broadleaf-standard-1aed23bb0e8b9f5092f4d4b6eb60c2b8)
 
 ## Values
 
