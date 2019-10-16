@@ -1,6 +1,6 @@
 ---
 title: Broadleaf
-description: Broadleaf fundamentally reimagines how people work together towards achieving a goal. It is a standard, built from first principles, that describes values and provides concrete specifications and tools for organizing a project effectively.
+description: Broadleaf fundamentally reimagines how people work together towards achieving a goal. It is a standard, built from first principles, that describes values, provides concrete specifications, and the tools for organizing a project effectively.
 ---
 
 # About
