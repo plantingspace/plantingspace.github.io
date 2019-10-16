@@ -3,8 +3,6 @@ title: Broadleaf
 description: Broadleaf fundamentally reimagines how people work together towards achieving a goal. It is a standard, built from first principles, that describes values, provides concrete specifications, and the tools for organizing a project effectively.
 ---
 
-# About
-
 Broadleaf aims at making work highly targeted and efficient, at reducing friction, and at creating the high levels of autonomy and flexibility that are needed in order to solve sophisticated problems.
 
 What that means in particular, and how this is achieved, is summarized in the [Values and Vision](#values-and-vision) section below.
