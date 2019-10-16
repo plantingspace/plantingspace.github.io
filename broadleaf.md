@@ -5,19 +5,17 @@ description: Broadleaf fundamentally reimagines how people work together towards
 
 # About
 
-Broadleaf is a way for people to organize work in order to achieve a common goal. It can be seen as a standard that describes fundamental values and provides concrete specifications for organizing a project effectively. 
+Broadleaf aims at making work highly targeted and efficient, at reducing friction, and at creating the high levels of autonomy and flexibility that are needed in order to solve sophisticated problems.
 
-**The vision behind Broadleaf is to fundamentally reimagine, from first principles, how people work together towards achieving a goal.** It aims at making work highly targeted and efficient, at reducing friction, and at creating the high levels of autonomy and flexibility that are needed in order **to solve sophisticated problems**.
-
-How this is achieved can be best summarized along the three values that Broadleaf organisations have in common, and the mechanics that are applied. Please scroll down to the Values section to read more.
+What that means in particular, and how this is achieved, is summarized in the [Values and Vision](#values-and-vision) section below.
 
 ## The initiative
 
-The goal of the initiative is to work out the specifications and tools in order to make the Broadleaf vision come to life. 
+The goal of the Broadleaf initiative is to work out the specifications and tools that will allow its vision to come to life. 
 
 We are applying the Broadleaf standard to all PlantingSpace projects, and use the learnings to improve the standard. Furthermore, we invite anyone who is interested to contribute their ideas and experiences. 
 
-See an outline of the Broadleaf standard here. Click on the image to access the actual graph in order to collapse or expand nodes and read attached text files. We are adding descriptions as we develop them. If you are interested in receiving regular updates, please sign up to the PlantingSpace mailing list.
+This graph shows the outline of the Broadleaf standard. Click on the image to access the graph in order to collapse or expand nodes and read attached text files. We are adding descriptions as we develop them. If you are interested in receiving regular updates, please sign up to the PlantingSpace mailing list.
 
 [![](https://i.imgur.com/9beUv75.png)](https://www.mindomo.com/mindmap/broadleaf-standard-1aed23bb0e8b9f5092f4d4b6eb60c2b8)
 
