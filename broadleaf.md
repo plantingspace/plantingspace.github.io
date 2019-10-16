@@ -1,15 +1,27 @@
 ---
 title: Broadleaf
-description: Broadleaf is a way for people to organize work in order to achieve a common goal. It can be seen as a standard that describes fundamental values and provides concrete specifications for organizing a project effectively.
+description: Broadleaf fundamentally reimagines how people work together towards achieving a goal. It is a standard, built from first principles, that describes values and provides concrete specifications and tools for organizing a project effectively.
 ---
 
 # About
 
 Broadleaf is a way for people to organize work in order to achieve a common goal. It can be seen as a standard that describes fundamental values and provides concrete specifications for organizing a project effectively. 
 
-The vision behind Broadleaf is to fundamentally reimagine, from first principles, how people work together towards achieving a goal. It aims at making work highly targeted and efficient, at reducing friction, and at creating the high levels of autonomy and flexibility that are needed in order to solve sophisticated problems.
+**The vision behind Broadleaf is to fundamentally reimagine, from first principles, how people work together towards achieving a goal.** It aims at making work highly targeted and efficient, at reducing friction, and at creating the high levels of autonomy and flexibility that are needed in order **to solve sophisticated problems**.
 
-How this is achieved can be best summarized along the three values that Broadleaf organisations have in common, and the mechanics that are applied.
+How this is achieved can be best summarized along the three values that Broadleaf organisations have in common, and the mechanics that are applied. Please scroll down to the Values section to read more.
+
+## The initiative
+
+The goal of the initiative is to work out the specifications and tools in order to make the Broadleaf vision come to life. 
+
+We are applying the Broadleaf standard to all PlantingSpace projects, and use the learnings to improve the standard. Furthermore, we invite anyone who is interested to contribute their ideas and experiences. 
+
+See an outline of the Broadleaf standard here. Click on the image to access the actual graph in order to collapse or expand nodes and read attached text files. We are adding descriptions as we develop them. If you are interested in receiving regular updates, please sign up to the PlantingSpace mailing list.
+
+[![](https://i.imgur.com/9beUv75.png)](https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5)
+
+## Values
 
 ### 1 - The goal is more important than the entity that delivers it
 
@@ -42,16 +54,3 @@ The third value emphasizes the importance of clarity as an enabler for good comm
     * When a task is posted for applications, it has to have a description of the expected outcomes. If this expectation is not well-articulated, ambiguous, or seen as unreasonable, the task might be ignored by potential applicants.
     * When someone then applies for a task, they state in their proposal deliverables they commit to, based on the task's description. If the application is accepted, the deliverables that the contributor themselves committed to set the bar for determining later if the task is completed or not.
     * On the other hand, if the proposed deliverables in an application are too far from the expected outcomes, the application will probably not be selected if there are other, more suited candidates.
-
-## The Broadleaf initiative
-
-Broadleaf as an initiative is about working out the specifications and tools in order to make this vision come to life. 
-
-PlantingSpace is applying the Broadleaf standard to all its projects, and uses the learnings to improve the standard. Furthermore, we invite anyone who is interested to contribute their ideas and experiences. 
-
-The graph below shows the outline of the Broadleaf standard. [Access the actual graph in order to collapse or expand nodes and read attached text files](https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5). We are adding descriptions as we develop them. If you are interested in receiving regular updates, please sign up to the mailing list at the bottom of [this page](https://planting.space).
-
-[Link to the graph](https://www.mindomo.com/mindmap/broadleaf-8a8e294efcfd42dda46a19491e9ab5e5)
-
-![](https://i.imgur.com/9beUv75.png)
-
